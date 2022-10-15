@@ -15,8 +15,7 @@ body {
 }
 
 .carousel {
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
-    height: 530px;
+    height: 535px;
     width: 500px;
     overflow: hidden;
 }
@@ -31,4 +30,27 @@ img {
     width: 500px;
     height: 500px;
     object-fit: cover;
+}
+
+.buttons-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    width: 49.5%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
 }
